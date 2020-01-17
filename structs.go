@@ -5,7 +5,7 @@ type State struct {
 	Map        *csmap
 	Round      *round
 	Player     *Player
-	AllPlayers map[string]*player // allplayers_*: steamid64 ...
+	AllPlayers map[string]*Player // allplayers_*: steamid64 ...
 	Previously *State
 	Added      *State
 	Auth       *auth
